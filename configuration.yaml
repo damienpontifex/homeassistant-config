@@ -2,6 +2,10 @@
 # Loads default set of integrations. Do not remove.
 default_config:
 
+http:
+  ssl_certificate: /etc/home-assistant/tls/tls.crt
+  ssl_key: /etc/home-assistant/tls/tls.key
+
 # Text to speech
 tts:
   - platform: google_translate
